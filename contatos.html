@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <h1> fale conosco</h1>
+            <fieldset>
+                <p> nome sobrenome</p>
+                <input type="text" class="input-texto" required>
+
+                <p>Email</p>
+                <input type="email" class="input-texto" required placecholder=" seulogin@dominio.com">
+
+                <p>telefone</p>
+                <input type="tel" class="input-texto" required placecholder=" (99)9 9999-9999">
+
+                <p> mensagem</p>
+                <textarea col="70" rows="10" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <p><input type="radio" name="contato" value="email"> Email</p>
+                <p><input type="radio" name="contato" value="telefone"> Telefone</p>
+                <p><input type="radio" name="contato" value="whatsapp" checked> WhatsApp</p>
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+
+</html>
